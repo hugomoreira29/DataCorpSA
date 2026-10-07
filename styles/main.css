@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /* font-family von googleapis */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e7f5ea;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3{
+  font-family: "Montserrat";
+  color: black;
+}
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%;
+  border-bottom: solid 1px;
+}
+
+header .logout_Button{
+  padding: 9px 15px;
+  background-color: rgba(105, 156, 69, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+}
+
+.logo{
+  cursor: pointer;
+  width: 250px;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: #9988a9;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(105, 156, 69, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+}
+
+button:hover{
+  background-color: rgba(105, 156, 69, 0.8);
+}
+
+i{
+  background-color: transparent;
+}
+
+/*----------------------------------------------------------------------------------------TABLE----------------------------------------------------------------------------------------*/
+.room_table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.room_table thead tr {
+    background: #009879;
+    color: black;
+}
+
+.room_table th,
+.room_table td{
+  padding: 12px 15px;
+}
+
+.room_table th{
+  border-right: 2px solid#b6d1bc;
+  border-left: 2px solid#b6d1bc;
+  border-top: 2px solid#b6d1bc;
+}
+
+.room_table td{
+  border-right: 2px solid #009879;
+  border-left: 2px solid #009879;
+  border-top: 2px solid #009879;
+}
+
+.room_table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.room_table tbody tr:nth-of-type(even) {
+    background: #f3f3f3;
+}
+
+.room_table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.rooms{
+  position: fixed;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%); /*position formular*/
+  text-align: center;
+}
+
+.rooms h2{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.room_header{
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.description_header{
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.BUTTON_reserve{
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  background-color: rgba(105, 156, 69, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  height: 30px;
+  width: 130px;
+}
+
+.BUTTON_reserve:hover{
+    background-color: rgba(105, 156, 69, 0.8);
+}
+
+.table_buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-------------------------------------------------------------------------------logged in user----------------------------------------------------------------------------------------*/
+.welcome_msg{
+top: 94%;
+position: fixed;
+font-size: 15px;
+}
+/*----------------------------------------------------------------------------------------FOOTER----------------------------------------------------------------------------------------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background: #e7f5ea;
+  text-align: center;
+  border-top: solid 1px;
+  padding: 5px;
+}

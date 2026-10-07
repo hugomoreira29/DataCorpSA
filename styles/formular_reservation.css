@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /* font-family von googleapis */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #e7f5ea;
+  font-family: "Montserrat", sans-serif;
+}
+/* Form styles */
+.reservation_formular {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservation_formular h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+/* Input styles */
+.reservation_formular input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Label styles */
+.reservation_formular label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Select styles */
+.reservation_formular select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button styles */
+.reservation_formular .smallButton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Table styles */
+.reservation_formular table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header styles */
+.reservation_formular th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table data styles */
+.reservation_formular td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table row hover effect */
+.reservation_formular tr:hover {
+    background-color: #f5f5f5;
+}
